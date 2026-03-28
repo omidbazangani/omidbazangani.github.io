@@ -1,5 +1,19 @@
 ## Omid Bazangani website
 
+### Run Locally (Ubuntu)
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+The site will be available at **http://localhost:4000**. Use `Ctrl+C` to stop the server.
+
+**Tip:** Add `--livereload` to auto-refresh the browser on changes:
+
+```bash
+bundle exec jekyll serve --livereload
+```
 
 ---
 

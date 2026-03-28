@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Teaching
-description: Omid's teaching
+title: Teaching — Omid Bazangani
+description: Teaching assistant experience in hardware security and physical attacks at Radboud University.
 ---
 
 <style>

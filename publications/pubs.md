@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Publications
-description: Omid Bazangani's publications
+title: Publications — Omid Bazangani
+description: Peer-reviewed publications and technical reports by Omid Bazangani on embedded system security and side-channel analysis.
 ---
 
 <style>
@@ -101,6 +101,17 @@ description: Omid Bazangani's publications
 <h2><a name="articles"></a>Articles</h2>
 
 
+<div class="article">
+    <div class="article-title">
+        Can Machine Learn Pipeline Leakage? <a href="https://ieeexplore.ieee.org/abstract/document/10546629/">[IEEE]</a>
+    </div>
+    <div class="article-summary">
+        O. Bazangani, P.A. Eliasi, S. Picek, I. Buhan, L. Batina<br>
+        <em>2024 Design, Automation & Test in Europe Conference (DATE 2024)</em><br><br>
+        Summary: Side-channel attacks cause a significant threat to security implementations in embedded devices. An automated framework simulating side-channel behaviours can offer invaluable insights into leakage origins and characteristics, helping developers improve those devices during the design phase. While there has been substantial effort towards crafting leakage simulators, earlier methods either necessitated significant manual work for reverse engineering the micro-architectural layer or depended on Deep Learning approaches without interpretable insights into the leakage source.
+        This work investigates whether machine learning can learn pipeline leakage characteristics of ARM Cortex-M processors, advancing automated and interpretable side-channel leakage simulation.
+    </div>
+</div>
 
 <div class="article">
     <div class="article-title">

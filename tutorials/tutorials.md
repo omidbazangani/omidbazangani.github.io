@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Tutorials
-description: Omid's tutorials
+title: Tutorials — Omid Bazangani
+description: Hands-on tutorials on side-channel analysis, TVLA, and fault injection for embedded systems by Omid Bazangani.
 ---
 
 <style>

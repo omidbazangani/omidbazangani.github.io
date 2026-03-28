@@ -1,13 +1,12 @@
 ---
 layout: page
-title: about
-description: Omid Bazangani is an Embedded Software Engineer
+title: About — Omid Bazangani
+description: Omid Bazangani is a Senior Embedded Software Engineer with 10+ years of experience in firmware, RTOS, connectivity, and embedded security.
 ---
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
-/* Global Styles */
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -35,8 +34,7 @@ a:hover {
     text-decoration: none;
 }
 
-/* Container */
-.container {
+.about-container {
     max-width: 800px;
     margin: 40px auto;
     background-color: #fff;
@@ -45,19 +43,20 @@ a:hover {
     border-radius: 5px;
 }
 
-/* Image */
-img {
-    max-width: 100%;
+.about-container img {
+    max-width: 160px;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
-img:hover {
+.about-container img:hover {
     transform: scale(1.05);
 }
 
-/* Horizontal Line */
 hr.shadow-effect {
     border: 0;
     height: 1px;
@@ -66,65 +65,72 @@ hr.shadow-effect {
     margin: 20px 0;
 }
 
-/* Contact Section */
-.row-fluid {
+.about-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
-.span5, .span2 {
-    margin: 10px 0;
+.about-header-text h2 {
+    margin: 0 0 5px 0;
+    color: #2c3e50;
 }
 
-#hide_email {
+.about-header-text p {
+    margin: 0;
+    color: #555;
+}
+
+.about-links {
     margin-top: 20px;
+}
+
+.about-links a {
+    display: inline-block;
+    padding: 8px 18px;
+    border: 2px solid #2c3e50;
+    border-radius: 5px;
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    transition: all 0.3s ease;
+}
+
+.about-links a:hover {
+    background-color: #2c3e50;
+    color: #fff;
 }
 
 </style>
 
-Omid is an Embedded Software Engineer with over than 7 years of experience in industry. 
+<div class="about-container">
+
+<div class="about-header">
+    <img src="../pics/omid.jpg" title="Omid Bazangani" alt="Omid Bazangani">
+    <div class="about-header-text">
+        <h2>Omid Bazangani</h2>
+        <p>Senior Embedded Software Engineer &nbsp;|&nbsp; RTOS, Connectivity, Low-Level Firmware</p>
+    </div>
+</div>
 
 <hr class="shadow-effect">
 
-Omid received his Msc. in Embedded System security, safety and integrity
-in 2020, from University of [Grenoble-INP](https://esisar.grenoble-inp.fr/).
+<p>Senior Embedded Software Engineer with 10+ years of experience in embedded firmware, RTOS-based development, low-level debugging, hardware/software integration, and industrial product development. Strong background in C, C++, Python, ARM Cortex-M platforms, Zephyr RTOS, BLE, communication protocols (CAN, SPI, I2C, UART, Modbus), and system bring-up.</p>
 
-He is a PhD candidate in [CESCA Lab](https://cescalab.cs.ru.nl/members/) of Radboud university from 2020 and his main focus is on Side-channel simulators for ARM Cortex-M microcontrollers. His PhD advisers are [Lejla Batina](https://www.cs.ru.nl/~lejla/) and [Ileana Buhan](https://ileanabuhan.github.io/). 
+<p>Currently Senior Embedded Software Engineer at NayaTech, developing firmware for Naya Create and modular accessories using Zephyr RTOS on STM32 and Nordic platforms. PhD candidate in Embedded System Security from <a href="https://cescalab.cs.ru.nl/members/">Radboud University</a> (2020–2024), researching side-channel simulation using microarchitectural features of ARM Cortex-M. Supervised by <a href="https://www.cs.ru.nl/~lejla/">Lejla Batina</a> and <a href="https://ileanabuhan.github.io/">Ileana Buhan</a>. M.Sc. in Embedded System Security from <a href="https://esisar.grenoble-inp.fr/">Grenoble-INP</a> (2020).</p>
 
-Omid is an Embedded software engineer focusing on side-channel attacks and simulators mainly for ARM microcontrollers. 
-Particularly microarchitectural profiling for side-channel simulator design based on machine learning algorithm. 
+<p>Experience spans connected products, industrial automation, laboratory and test systems, and embedded security research. Tools and environments include GDB, J-Trace, Git, Linux, QEMU, IAR EWARM, Keil, and PlatformIO.</p>
 
-[Curriculum Vitae ![CV as pdf](icons16/pdf-icon.png)]({{ BASE_PATH }}/PDFDocs/bazangani_cv.pdf)<br/>
+<div class="about-links">
+    <a href="{{ BASE_PATH }}/PDFDocs/bazangani_cv.pdf">Download CV</a>
+    <a href="https://www.linkedin.com/in/omid-bazangani/">LinkedIn</a>
+    <a href="https://github.com/omidbazangani">GitHub</a>
+    <a href="mailto:omid.bazangani@gmail.com">Email</a>
+</div>
 
-[LinkedIn](https://www.linkedin.com/in/omid-bazangani/)<br/>
-
----
-
-<div class="container">
-<h4><a name="contact"></a>Contact</h4>
-
-    <div class="row-fluid">
-        <div class="span5">
-           Omid Bazangani<br/>
-            <a href="https://www.ru.nl/dis/">Department of Digital Security </a><br/>
-			<a href="https://www.ru.nl/over-ons/de-campus/gebouwen-en-ruimtes/mercator-i">Mercator Building</a><br/>
-            <a href="https://www.ru.nl/">Radboud University</a><br/>
-          
-            Toernooiveld 200 <br/>
-            Nijmegen<br/>
-            The Netherlands<br/><br/>
-
-            <div id="hide_email">
-            Email: omid.bazangani@ru.nl<br/>
-            Phone: 0642923519
-            </div>
-        </div>
-
-        <div class="span2">
-        <a href="../pics/omid.jpg">
-            <img src="../pics/omid.jpg"
-                  title="Omid Bazangani" alt="Omid Bazangani"/></a>
-        </div>
-    </div>
 </div>
